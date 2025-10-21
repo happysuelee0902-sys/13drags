@@ -8,7 +8,7 @@ function apply(){
     const t = `translateY(${ty}px)`;
     cat.style.transform = t;
     if(w) w.style.transform = t;
-    if (w && ty >= goal) {
+    if (w && ty >= goal) { // w가 존재하고 누적이동이 goal이상이면 제거
     w.style.display= 'none';
   }
 }
