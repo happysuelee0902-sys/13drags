@@ -1,0 +1,97 @@
+html,
+body {
+    overflow: hidden;
+    margin: 0px;
+    user-select: none;
+    width: 100%;
+    height: 100%;
+}
+#back{
+  background-color: olive;
+  width:50px; height:25px;
+  text-align: center; line-height: 25px;
+  top: 8px; left: 8px;
+  position: fixed;
+}
+
+.tree{
+  z-index: 1; 
+}
+
+
+
+#grass1{
+  clip-path: polygon(50% 0, 0 100%, 100% 100%);
+  width: 180px; height: 100px;
+  position: absolute;
+  top: 200px; left: 110px;
+  background-color: darkgreen;
+}
+#grass2{
+  clip-path: polygon(50% 0, 0 100%, 100% 100%);
+  width: 200px; height: 100px;
+  position: absolute;
+  top: 300px; left: 100px;
+  background-color: darkgreen;
+}
+#trunk{
+  width: 50px; height: 100px;
+  background-color: rgb(72, 41, 18);
+  position: absolute;
+  top:400px; left: 170px;
+}
+#star{
+    background-color:rgb(254, 254, 88);
+     clip-path: polygon(
+      50% 0%, 61% 35%, 98% 35%,
+      68% 57%, 79% 91%, 50% 70%,
+      21% 91%, 32% 57%, 2% 35%, 39% 35%
+    );
+    width: 50px; height: 50px;
+    position: absolute;
+    top:165px; left: 175px;
+}
+#circle1,#circle2,#circle3,#circle4,#circle5,#circle6,#circle7,#circle8,#circle9{
+  width: 10px; height: 10px;
+  background-color: rgb(190, 218, 242);
+  border-radius: 50%;
+  position: relative;
+   opacity: 0;   
+   transition: opacity 1ms ease, transform 260ms ease;
+}
+.show{
+  opacity: 1;
+}
+#circle1{
+  top: 220px; left: 198px;
+}
+#circle2{
+  top: 230px; left: 160px;
+}
+#circle3{
+  top: 240px; left: 190px;
+}
+#circle4{
+  top: 245px; left: 230px;
+}
+#circle5{
+  top: 270px; left: 190px;
+}
+#circle6{
+  top: 280px; left: 220px;
+}
+#circle7{
+  top: 290px; left: 180px;
+}
+#circle8{
+  top: 298px; left: 140px;
+}
+#circle9{
+  top: 294px; left: 250px;
+}
+#꾸미자{
+    font-size: 50px;
+    background-color:antiquewhite;
+    text-align: center;
+}
+

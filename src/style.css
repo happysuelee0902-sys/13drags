@@ -1,0 +1,12 @@
+html,
+body{
+    background-color: lightpink;
+}
+#title{
+    font-size: 80px;
+    text-align: center;
+}.btn{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}

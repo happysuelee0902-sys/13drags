@@ -1,0 +1,22 @@
+html,
+body {
+    overflow: hidden;
+    margin: 0px;
+    user-select: none;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+#back{
+  background-color: olive;
+  width:50px; height:25px;
+  text-align: center; line-height: 25px;
+  top: 8px; left: 8px;
+  position: fixed;
+}
+#box{
+    color:red;
+    font-size: 85px;
+   
+}
+#handle{ opacity:1; cursor:grab; touch-action:none; }
